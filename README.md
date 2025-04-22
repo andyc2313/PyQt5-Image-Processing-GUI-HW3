@@ -6,13 +6,13 @@ This is an image processing application developed using PyQt5 and OpenCV, design
 
 - **Open Image**: Load an image file (JPEG, PNG, etc.) from your system.
 - **High-Pass Filter**: Apply a high-pass filter to the image with customizable filter size.
--   - ![GUI Screenshot](high_pass_filter.png)
+- ![GUI Screenshot](high_pass_filter.png)
 - **LOG Sobel Filter**: Apply the LOG (Laplacian of Gaussian) filter followed by Sobel edge detection. The user can adjust the filter size.
--   - ![GUI Screenshot](Marr-Hildreth_vs_Sobel.png)
+- ![GUI Screenshot](Marr-Hildreth_vs_Sobel.png)
 - **Zero Crossing Threshold**: Detect zero crossings in the filtered image and apply different thresholds to visualize edge detection.
--   - ![GUI Screenshot](zero_crossing_threshold.png)
+- ![GUI Screenshot](zero_crossing_threshold.png)
 - **Local Enhancement**: Perform local histogram equalization for improving image contrast and details in specific areas.
--   - ![GUI Screenshot](local_vs_normal_equalization.png)
+-  ![GUI Screenshot](local_vs_normal_equalization.png)
 
 ## Requirements
 
